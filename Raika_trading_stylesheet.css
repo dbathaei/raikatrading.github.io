@@ -1,0 +1,73 @@
+.navbar {background-color: rgba(24, 12, 12, 0.329);}     
+.top-nav-collapse {background-color: rgb(3, 1, 1);}
+@media only screen and (max-width: 768px) {.navbar {background-color: rgba(20, 11, 11, 0.979), 0};}
+html,header,body,
+.view {height: 100%;width: 100%;padding: 0;margin: 0px;scroll-behavior: smooth;font-family: 'Muli', sans-serif;}
+.mySlides{display: none;}
+/* Basic styles */
+*,
+*::before,
+*::after {box-sizing: border-box;}
+:root{background: transparent;}
+h1{font-size: 3em;font-weight: normal;}
+/* title styles */
+.home-title span{position: relative;overflow: hidden;display: block;background: transparent;line-height: 1.2;}
+.home-title span::after{content: '';position: absolute;top: 0;right: 0;width: 100%;height: 100%;background: rgb(236, 226, 226);animation: a-ltr-after 2s cubic-bezier(.77,0,.18,1) forwards;transform: translateX(-101%);}
+.home-title span::before{content: '';position: absolute;top: 0;right: 0;width: 100%;height: 100%;background: var(--bg-color);animation: a-ltr-before 2s cubic-bezier(.77,0,.18,1) forwards;transform: translateX(0);}
+.home-title span:nth-of-type(1)::before,
+.home-title span:nth-of-type(1)::after{animation-delay: 1s;}
+.home-title span:nth-of-type(2)::before,
+.home-title span:nth-of-type(2)::after{animation-delay: 1.5s;}
+@keyframes a-ltr-after{0% {transform: translateX(-100%)}100% {transform: translateX(101%)}}
+@keyframes a-ltr-before{0% {transform: translateX(0)}100% {transform: translateX(200%)}}
+/* title styles end*/
+/*First animation*/
+ @import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+.text {position: relative;margin-left: 30px;margin-top: 20px;left: 10%;top: 140%;transform: translateX(-30%) translateY(-50%);list-style: none;}
+.text.hidden {border-bottom: 0px solid rgb(14, 1, 1);}
+.text li {float: left;font-weight: 700;color: rgb(8, 1, 1);opacity: 1;transition: all 1s ease-in-out;max-width: 2em;}
+.text.hidden li.spaced {padding-left: 0;}
+.text li.spaced {padding-left: 0.5em;}
+.text.hidden li.ghost {opacity: 0;max-width: 0;}
+/*!--first animation*/
+/*Second animation*/
+.text2 {position: relative;margin-left: 30px;margin-top: 20px;left: 10%;top: 140%;transform: translateX(-30%)translateY(-50%);list-style: none;border-bottom: 0;}
+.text2.hidden2 {border-bottom: 0px solid rgb(14, 1, 1);}
+.text2 li {float: left;font-weight: 700;color: rgb(8, 1, 1);opacity: 1;transition: all 1s ease-in-out;
+max-width: 2em;}
+.text2.hidden2 li.spaced2 {padding-left: 0;}
+.text2 li.spaced2 {padding-left: 0.5em}
+.text2.hidden2 li.ghost2 {opacity: 0;max-width: 0;}
+/*Second animation end*/
+.black-back{background:#000000;}
+.glob{background:linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)), url(Cartorical-World-Thematic-Map-01-3-modified.jpg);background-color: #cccccc;height: auto;width: auto;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative;}
+.animated-section{margin-top: 23px;}
+.fixed-background{background-attachment: fixed;}
+.logo{background: url('Raika-Trading-title-logo.png');}
+#text-logo{margin-top:10px;}
+.black-background{background: black;}
+.nav-button-text{font-size: 130%;font-family: system-ui;color: white;border-right: solid rgba(255, 255, 255, 0.26);}
+strong.navbar-text{font-size: 15px;}
+.nav-link{font-family: 'Arial Narrow Bold', sans-serif;}
+.btn{background-color: rgb(176, 141, 87);color:rgb(176, 141, 87)}
+a.raika-color{color: rgb(176, 141, 87);border-color: rgb(165, 125, 65);}
+.header-position{align-items: center;position: absolute;top: 150px;}
+.mega-menu{width: 800px; overflow: hidden; padding: 10px;}
+.mega-menu a{text-decoration: none; color: rgb(1, 10, 10);}
+.mega-menu .sub-menu-heading{ color: rgb(1, 10, 10);}
+@media(max-width:500px){
+.mega-menu{width: 300px;}}
+.white-background{background-color: rgb(255, 255, 255);}
+#back-nav{background-color: rgb(0, 0, 0);}
+.map-container-7{overflow:hidden;padding-bottom:56.25%;position:relative;height:0;}
+.map-container-7 iframe{left:0;top:0;height:100%;width:100%;position:absolute;}
+/* Carousel*/
+.carousel,
+.carousel-item,
+.carousel-item.active {height: 100%;}
+.carousel-inner {height: 100%;}
+.carousel-item:nth-child(1) {background-image: url("Cartorical-World-Thematic-Map-01-3-modified.jpg");background-repeat: no-repeat;background-size:cover;background-position: center center;background-attachment: fixed;}
+.carousel-item:nth-child(2) {background-image: url("ships.jpg");background-repeat: no-repeat;background-size: cover;background-position: center center;background-attachment: fixed;}
+.carousel-item:nth-child(3) {background-image: url("transportaion.jpg");background-repeat: no-repeat;background-size: cover;background-position: center center;background-attachment: fixed;}
+/* !--Carousel*/
+.hero-image {background-image:linear-gradient(rgba(0, 0, 0, 0.836), rgba(0,0,0,0)), url('Vancouver-Skyline-Aerial-Sunset-2-2.jpg');background-color: #cccccc;height: 550px;width: auto;background-position: center;background-repeat: no-repeat;background-size: cover;position: relative; background-attachment: fixed;}

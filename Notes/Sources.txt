@@ -1,0 +1,75 @@
+The globe picture:
+url: https://cartorical.com/shop/world-vector-map-with-countries-and-globe/
+picture link: https://www.cartorical.com/wp-content/uploads/sites/2/Cartorical-World-Thematic-Map-01-3.jpg
+
+sevices picture:
+url: http://ifixtampabay.com/services/
+img url: business-process-management-page-1100x500
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+Webpages:
+1.	Index
+2.	Services
+3.	Contact Us(&Specific Requests)
+4.	North America(Contact Us)
+5.	Middle-East(Contact Us)
+6.	About Us
+-----------------------------------------------------------------------------------------------------------------
+Index: Done
+-----------------------------------------------------------------------------------------------------------------
+Services:
+	Raika Services Include.......................................................
+
+	Founder:
+		Farid Moeini
+			Description..................................................
+-----------------------------------------------------------------------------------------------------------------
+Contact us:
+	You can contact us at
+	Email:	Contact@RaikaTrading.com
+	Phone:	604-441-6929
+	
+			Contact us Box:
+				Your Product:
+				Name:(personal/Company)
+				Contact Info:
+				Extra Information:_______________________________________
+				_________________________________________________________
+-----------------------------------------------------------------------------------------------------------------
+North America:
+	Pic of NA: + Description
+
+	You can contact us at
+	Email:	Contact@RaikaTrading.com
+	Phone:	604-441-6929
+	
+			Contact us Box:
+				Your Product:
+				Name:(personal/Company)
+				Contact Info:
+				Extra Information:_______________________________________
+				_________________________________________________________
+-----------------------------------------------------------------------------------------------------------------
+Middle-East
+	Pic of ME: + Description
+
+	You can contact us at
+	Email:	Contact@RaikaTrading.com
+	Phone:	604-441-6929
+	
+			Contact us Box:
+				Your Product:
+				Name:(personal/Company)
+				Contact Info:
+				Extra Information:_______________________________________
+				_________________________________________________________
+-----------------------------------------------------------------------------------------------------------------
+About Us:
+	Collapse:
+		1.Overview:
+		2.Why Middle-East
+		3.Why North America
+		4.Raika Team
+		
